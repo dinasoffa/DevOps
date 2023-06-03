@@ -1,0 +1,10 @@
+
+# Makefile
+install:
+    pip install -r requirements.txt
+
+lint:
+    pylint script.py
+
+test:
+    pytest test_script.py
